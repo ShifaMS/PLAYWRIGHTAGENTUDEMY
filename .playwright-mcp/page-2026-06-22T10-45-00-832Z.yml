@@ -1,0 +1,79 @@
+- generic [ref=e379]:
+  - banner [ref=e380]:
+    - generic [ref=e381]:
+      - generic [ref=e383]: GREENKART
+      - link "Get Shortlisted by Recruiters - Take QA Skill Assessments on TechSmartHire" [ref=e384] [cursor=pointer]:
+        - /url: https://techsmarthire.com/
+  - generic [ref=e389]:
+    - generic [ref=e390]:
+      - generic [ref=e391]:
+        - generic [ref=e392]:
+          - generic [ref=e393]: "Page size:"
+          - combobox "Page size:" [ref=e394]:
+            - option "5" [selected]
+            - option "10"
+            - option "20"
+        - generic [ref=e395]:
+          - generic [ref=e396]: "Search:"
+          - searchbox "Search:" [ref=e397]
+      - list "Pagination" [ref=e399]:
+        - listitem:
+          - button "First" [disabled]
+        - listitem:
+          - button "Previous" [disabled]
+        - listitem [ref=e400]:
+          - button "1 (current)" [ref=e401] [cursor=pointer]:
+            - text: "1"
+            - generic [ref=e402]: (current)
+        - listitem [ref=e403]:
+          - button "2" [ref=e404] [cursor=pointer]
+        - listitem [ref=e405]:
+          - button "3" [ref=e406] [cursor=pointer]
+        - listitem [ref=e407]:
+          - button "4" [ref=e408] [cursor=pointer]
+        - listitem [ref=e409]:
+          - button "Next" [ref=e410] [cursor=pointer]
+        - listitem [ref=e411]:
+          - button "Last" [ref=e412] [cursor=pointer]
+    - 'table "Sorted by name: descending order" [ref=e413]':
+      - alert [ref=e414]: "Sorted by name: descending order"
+      - rowgroup [ref=e415]:
+        - 'row "Veg/fruit name: activate to sort column ascending Price: activate to sort column ascending Discount price: activate to sort column ascending" [ref=e416]':
+          - 'columnheader "Veg/fruit name: activate to sort column ascending" [ref=e417] [cursor=pointer]': Veg/fruit name
+          - 'columnheader "Price: activate to sort column ascending" [ref=e419] [cursor=pointer]': Price
+          - 'columnheader "Discount price: activate to sort column ascending" [ref=e420] [cursor=pointer]': Discount price
+      - rowgroup [ref=e421]:
+        - row "Wheat 67 28" [ref=e422]:
+          - cell "Wheat" [ref=e423]
+          - cell "67" [ref=e424]
+          - cell "28" [ref=e425]
+        - row "Tomato 37 26" [ref=e426]:
+          - cell "Tomato" [ref=e427]
+          - cell "37" [ref=e428]
+          - cell "26" [ref=e429]
+        - row "Strawberry 23 15" [ref=e430]:
+          - cell "Strawberry" [ref=e431]
+          - cell "23" [ref=e432]
+          - cell "15" [ref=e433]
+        - row "Rice 37 46" [ref=e434]:
+          - cell "Rice" [ref=e435]
+          - cell "37" [ref=e436]
+          - cell "46" [ref=e437]
+        - row "Potato 34 22" [ref=e438]:
+          - cell "Potato" [ref=e439]
+          - cell "34" [ref=e440]
+          - cell "22" [ref=e441]
+  - generic [ref=e442]:
+    - generic [ref=e443]: Delivery Date
+    - generic [ref=e445]:
+      - generic [ref=e446]:
+        - generic [ref=e447]: "0"
+        - spinbutton [ref=e448]: "6"
+        - generic [ref=e449]: /
+        - spinbutton [ref=e450]: "22"
+        - generic [ref=e451]: /
+        - spinbutton [ref=e452]: "2026"
+      - button [ref=e453] [cursor=pointer]:
+        - img [ref=e454]
+      - button [ref=e457] [cursor=pointer]:
+        - img [ref=e458]
